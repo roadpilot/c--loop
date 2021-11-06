@@ -10,8 +10,13 @@ using namespace std;
 
 int main() {
     // Complete the code.
+    int a,b;
+    cin>>a>>b;
+    cout<<a<<endl;
+    cout<<b<<endl;
+    string intMap[10]= {"zero","one", "two","three","four","five","six","seven","eight","nine"};
     for(int i = 0; i < 10; i++) {
-        cout<<i<<endl;
+        cout<<intMap[i]<<endl;
     }
     return 0;
 }
