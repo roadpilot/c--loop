@@ -15,8 +15,10 @@ int main() {
     cout<<a<<endl;
     cout<<b<<endl;
     string intMap[10]= {"zero","one", "two","three","four","five","six","seven","eight","nine"};
-    for(int i = 0; i < 10; i++) {
-        cout<<intMap[i]<<endl;
+    for(int i = a; i <= b; i++) {
+        if(i<=9){
+            cout<<intMap[i]<<endl;
+        }
     }
     return 0;
 }
