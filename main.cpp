@@ -22,6 +22,9 @@ int main() {
         else if (i%2==0){
             cout<<"even"<<endl;
         }
+        else{
+            cout<<"odd"<<endl;
+        }
     }
     return 0;
 }
