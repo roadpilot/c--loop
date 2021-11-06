@@ -12,8 +12,8 @@ int main() {
     // Complete the code.
     int a,b;
     cin>>a>>b;
-    cout<<a<<endl;
-    cout<<b<<endl;
+    // cout<<a<<endl;
+    // cout<<b<<endl;
     string intMap[10]= {"zero","one", "two","three","four","five","six","seven","eight","nine"};
     for(int i = a; i <= b; i++) {
         if(i<=9){
